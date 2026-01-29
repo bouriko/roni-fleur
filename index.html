@@ -14,8 +14,8 @@
 
         body {
             font-family: 'Montserrat', sans-serif;
-            background: #faf9f7;
-            color: #333;
+            background: #0a0a0a;
+            color: #fff;
             min-height: 100vh;
         }
 
@@ -23,7 +23,7 @@
         header {
             text-align: center;
             padding: 50px 20px 30px;
-            border-bottom: 1px solid rgba(212, 175, 55, 0.3);
+            border-bottom: 1px solid rgba(212, 175, 55, 0.2);
         }
 
         .logo {
@@ -51,7 +51,7 @@
 
         .hero p {
             font-size: 1.1rem;
-            color: rgba(0, 0, 0, 0.6);
+            color: rgba(255, 255, 255, 0.7);
             font-weight: 300;
             letter-spacing: 2px;
             margin-bottom: 15px;
@@ -111,7 +111,7 @@
 
         .step p {
             font-size: 0.9rem;
-            color: rgba(0, 0, 0, 0.6);
+            color: rgba(255, 255, 255, 0.7);
             font-weight: 300;
             letter-spacing: 1px;
         }
@@ -140,8 +140,8 @@
         }
 
         .product-card {
-            background: linear-gradient(145deg, #fff 0%, #f5f5f5 100%);
-            border: 1px solid rgba(212, 175, 55, 0.3);
+            background: linear-gradient(145deg, #111 0%, #0a0a0a 100%);
+            border: 1px solid rgba(212, 175, 55, 0.2);
             border-radius: 8px;
             overflow: hidden;
             transition: all 0.4s ease;
@@ -151,7 +151,7 @@
         .product-card:hover {
             border-color: rgba(212, 175, 55, 0.5);
             transform: translateY(-5px);
-            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
         }
 
         .product-card.selected {
@@ -174,14 +174,14 @@
             font-family: 'Cormorant Garamond', serif;
             font-size: 1.6rem;
             font-weight: 400;
-            color: #333;
+            color: #fff;
             margin-bottom: 12px;
             letter-spacing: 2px;
         }
 
         .product-desc {
             font-size: 0.85rem;
-            color: rgba(0, 0, 0, 0.5);
+            color: rgba(255, 255, 255, 0.5);
             font-weight: 300;
             line-height: 1.6;
             margin-bottom: 20px;
@@ -222,16 +222,16 @@
         /* Boutique Selector Section */
         .boutique-section {
             padding: 60px 20px;
-            border-top: 1px solid rgba(212, 175, 55, 0.3);
+            border-top: 1px solid rgba(212, 175, 55, 0.2);
         }
 
         .boutique-selector {
             max-width: 500px;
             margin: 0 auto;
             padding: 40px;
-            border: 1px solid rgba(212, 175, 55, 0.4);
+            border: 1px solid rgba(212, 175, 55, 0.3);
             border-radius: 8px;
-            background: rgba(212, 175, 55, 0.08);
+            background: rgba(212, 175, 55, 0.05);
             text-align: center;
         }
 
@@ -245,7 +245,7 @@
 
         .boutique-selector .subtitle {
             font-size: 0.9rem;
-            color: rgba(0, 0, 0, 0.5);
+            color: rgba(255, 255, 255, 0.5);
             margin-bottom: 25px;
         }
 
@@ -254,9 +254,9 @@
             padding: 15px 20px;
             font-family: 'Montserrat', sans-serif;
             font-size: 1rem;
-            background: #fff;
-            color: #333;
-            border: 1px solid rgba(212, 175, 55, 0.5);
+            background: #0a0a0a;
+            color: #fff;
+            border: 1px solid rgba(212, 175, 55, 0.4);
             border-radius: 4px;
             cursor: pointer;
             appearance: none;
@@ -272,20 +272,20 @@
         }
 
         .boutique-selector select option {
-            background: #fff;
-            color: #333;
+            background: #0a0a0a;
+            color: #fff;
             padding: 10px;
         }
 
         .btn-order {
             display: inline-block;
-            background: #d4af37;
-            color: #0a0a0a;
+            background: transparent;
+            color: #d4af37;
             padding: 16px 50px;
-            border: 2px solid #d4af37;
+            border: 1px solid #d4af37;
             text-decoration: none;
             font-size: 0.9rem;
-            font-weight: 500;
+            font-weight: 400;
             letter-spacing: 3px;
             text-transform: uppercase;
             transition: all 0.3s ease;
@@ -293,19 +293,18 @@
         }
 
         .btn-order:hover {
-            background: #c9a432;
-            border-color: #c9a432;
+            background: #d4af37;
             color: #0a0a0a;
         }
 
         .btn-order.disabled {
-            opacity: 0.4;
+            opacity: 0.3;
             cursor: not-allowed;
         }
 
         .btn-order.disabled:hover {
-            background: #d4af37;
-            color: #0a0a0a;
+            background: transparent;
+            color: #d4af37;
         }
 
         .order-warning {
@@ -328,7 +327,7 @@
             margin-top: 20px;
             margin-bottom: 25px;
             padding: 15px;
-            background: rgba(212, 175, 55, 0.15);
+            background: rgba(212, 175, 55, 0.1);
             border-radius: 4px;
             font-size: 0.9rem;
             color: #d4af37;
@@ -341,7 +340,7 @@
         /* Info Section */
         .info-section {
             padding: 80px 20px;
-            border-top: 1px solid rgba(212, 175, 55, 0.3);
+            border-top: 1px solid rgba(212, 175, 55, 0.2);
         }
 
         .info-container {
@@ -363,7 +362,7 @@
         }
 
         .info-header p {
-            color: rgba(0, 0, 0, 0.6);
+            color: rgba(255,255,255,0.6);
             font-size: 1rem;
         }
 
@@ -375,9 +374,9 @@
 
         .boutique-card {
             padding: 25px;
-            border: 1px solid rgba(212, 175, 55, 0.2);
+            border: 1px solid rgba(212, 175, 55, 0.15);
             border-radius: 6px;
-            background: rgba(255, 255, 255, 0.8);
+            background: rgba(255,255,255,0.02);
         }
 
         .boutique-card h4 {
@@ -390,7 +389,7 @@
 
         .boutique-card p {
             font-size: 0.85rem;
-            color: rgba(0, 0, 0, 0.6);
+            color: rgba(255, 255, 255, 0.6);
             font-weight: 300;
             line-height: 1.7;
             margin-bottom: 5px;
@@ -412,16 +411,128 @@
             margin: 10px 0;
         }
 
+        /* Theme Toggle */
+        .theme-toggle {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: rgba(212, 175, 55, 0.2);
+            border: 1px solid rgba(212, 175, 55, 0.4);
+            border-radius: 30px;
+            padding: 10px 20px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.85rem;
+            color: #d4af37;
+            transition: all 0.3s ease;
+            z-index: 1000;
+        }
+
+        .theme-toggle:hover {
+            background: rgba(212, 175, 55, 0.3);
+        }
+
+        /* Light Mode */
+        body.light-mode {
+            background: #faf9f7;
+            color: #333;
+        }
+
+        body.light-mode header {
+            border-bottom-color: rgba(212, 175, 55, 0.3);
+        }
+
+        body.light-mode .hero p {
+            color: rgba(0, 0, 0, 0.6);
+        }
+
+        body.light-mode .step p {
+            color: rgba(0, 0, 0, 0.6);
+        }
+
+        body.light-mode .product-card {
+            background: linear-gradient(145deg, #fff 0%, #f5f5f5 100%);
+            border-color: rgba(212, 175, 55, 0.3);
+        }
+
+        body.light-mode .product-card:hover {
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+        }
+
+        body.light-mode .product-name {
+            color: #333;
+        }
+
+        body.light-mode .product-desc {
+            color: rgba(0, 0, 0, 0.5);
+        }
+
+        body.light-mode .boutique-selector {
+            background: rgba(212, 175, 55, 0.08);
+            border-color: rgba(212, 175, 55, 0.4);
+        }
+
+        body.light-mode .boutique-selector select {
+            background: #fff;
+            color: #333;
+            border-color: rgba(212, 175, 55, 0.5);
+        }
+
+        body.light-mode .boutique-selector select option {
+            background: #fff;
+            color: #333;
+        }
+
+        body.light-mode .boutique-section {
+            border-top-color: rgba(212, 175, 55, 0.3);
+        }
+
+        body.light-mode .info-section {
+            border-top-color: rgba(212, 175, 55, 0.3);
+        }
+
+        body.light-mode .info-header p {
+            color: rgba(0, 0, 0, 0.6);
+        }
+
+        body.light-mode .boutique-card {
+            background: rgba(255, 255, 255, 0.8);
+            border-color: rgba(212, 175, 55, 0.2);
+        }
+
+        body.light-mode .boutique-card p {
+            color: rgba(0, 0, 0, 0.6);
+        }
+
+        body.light-mode footer {
+            border-top-color: rgba(212, 175, 55, 0.3);
+        }
+
+        body.light-mode footer p {
+            color: rgba(0, 0, 0, 0.4);
+        }
+
+        body.light-mode .theme-toggle {
+            background: rgba(212, 175, 55, 0.15);
+            border-color: rgba(212, 175, 55, 0.5);
+        }
+
+        body.light-mode .order-summary {
+            background: rgba(212, 175, 55, 0.15);
+        }
+
         /* Footer */
         footer {
             text-align: center;
             padding: 40px 20px;
-            border-top: 1px solid rgba(212, 175, 55, 0.3);
+            border-top: 1px solid rgba(212, 175, 55, 0.2);
         }
 
         footer p {
             font-size: 0.8rem;
-            color: rgba(0, 0, 0, 0.4);
+            color: rgba(255, 255, 255, 0.4);
             letter-spacing: 2px;
         }
 
@@ -825,7 +936,7 @@
                     <p>5 bd Wilson, 06600 Antibes</p>
                     <p>📞 04.93.67.30.13</p>
                     <p class="horaires">🕐 Jeu 13 & Ven 14 : 09:00-19:30</p>
-                    <a href="/cdn-cgi/l/email-protection#ef8e819b868d8a9caf9d808186c289838a9a9d9cc18c8082"><span class="__cf_email__" data-cfemail="eb8a859f82898e98ab99848582c68d878e9e9998c5888486">[email&#160;protected]</span></a>
+                    <a href="mailto:antibes@roni-fleurs.com">antibes@roni-fleurs.com</a>
                 </div>
 
                 <div class="boutique-card">
@@ -833,7 +944,7 @@
                     <p>31 bd Kennedy, 06800 Cagnes-sur-Mer</p>
                     <p>📞 04.93.20.55.58</p>
                     <p class="horaires">🕐 Jeu 13 & Ven 14 : 09:00-19:30</p>
-                    <a href="/cdn-cgi/l/email-protection#f09391979e9583b0829f9e99dd969c95858283de939f9d"><span class="__cf_email__" data-cfemail="ed8e8c8a83889ead9f828384c08b8188989f9ec38e8280">[email&#160;protected]</span></a>
+                    <a href="mailto:cagnes@roni-fleurs.com">cagnes@roni-fleurs.com</a>
                 </div>
 
                 <div class="boutique-card">
@@ -841,7 +952,7 @@
                     <p>52 bd Maréchal Juin, 06800 Cagnes-sur-Mer</p>
                     <p>📞 04.93.20.55.58</p>
                     <p class="horaires">🕐 Jeu 13 & Ven 14 : 09:00-19:30</p>
-                    <a href="/cdn-cgi/l/email-protection#5b383e352f293e1b29343532763d373e2e292875383436"><span class="__cf_email__" data-cfemail="6b080e051f190e2b19040502460d070e1e191845080406">[email&#160;protected]</span></a>
+                    <a href="mailto:centre@roni-fleurs.com">centre@roni-fleurs.com</a>
                 </div>
 
                 <div class="boutique-card">
@@ -849,7 +960,7 @@
                     <p>9 rue Teisseire, 06400 Cannes</p>
                     <p>📞 04.93.30.09.64</p>
                     <p class="horaires">🕐 Jeu 13 & Ven 14 : 09:00-19:30</p>
-                    <a href="/cdn-cgi/l/email-protection#06656768686375467469686f2b606a637374752865696b"><span class="__cf_email__" data-cfemail="b3d0d2ddddd6c0f3c1dcddda9ed5dfd6c6c1c09dd0dcde">[email&#160;protected]</span></a>
+                    <a href="mailto:cannes@roni-fleurs.com">cannes@roni-fleurs.com</a>
                 </div>
 
                 <div class="boutique-card">
@@ -857,7 +968,7 @@
                     <p>6 rue Sainte Marguerite, 06160 Juan-les-Pins</p>
                     <p>📞 04.93.61.93.31</p>
                     <p class="horaires">🕐 Jeu 13 & Ven 14 : 09:00-19:30</p>
-                    <a href="/cdn-cgi/l/email-protection#1f756a7e715f6d7071763279737a6a6d6c317c7072"><span class="__cf_email__" data-cfemail="e28897838ca2908d8c8bcf848e87979091cc818d8f">[email&#160;protected]</span></a>
+                    <a href="mailto:juan@roni-fleurs.com">juan@roni-fleurs.com</a>
                 </div>
 
                 <div class="boutique-card">
@@ -865,7 +976,7 @@
                     <p>516 avenue de Cannes, 06210 Mandelieu</p>
                     <p>📞 04.92.97.51.52</p>
                     <p class="horaires">🕐 Jeu 13 & Ven 14 : 09:00-19:30</p>
-                    <a href="/cdn-cgi/l/email-protection#187579767c7d74717d6d586a777671357e747d6d6a6b367b7775"><span class="__cf_email__" data-cfemail="2d404c434948414448586d5f424344004b4148585f5e034e4240">[email&#160;protected]</span></a>
+                    <a href="mailto:mandelieu@roni-fleurs.com">mandelieu@roni-fleurs.com</a>
                 </div>
 
                 <div class="boutique-card">
@@ -873,7 +984,7 @@
                     <p>630 avenue de Tournamy, 06250 Mougins</p>
                     <p>📞 04.92.27.51.53</p>
                     <p class="horaires">🕐 Jeu 13 & Ven 14 : 10:00-13:00 / 14:00-19:00</p>
-                    <a href="/cdn-cgi/l/email-protection#55383a20323c3b2615273a3b3c783339302027267b363a38"><span class="__cf_email__" data-cfemail="3a57554f5d5354497a48555453175c565f4f484914595557">[email&#160;protected]</span></a>
+                    <a href="mailto:mougins@roni-fleurs.com">mougins@roni-fleurs.com</a>
                 </div>
 
                 <div class="boutique-card">
@@ -881,7 +992,7 @@
                     <p>4 rue Alberti, 06000 Nice</p>
                     <p>📞 04.92.27.51.55</p>
                     <p class="horaires">🕐 Jeu 13 & Ven 14 : 09:00-19:30</p>
-                    <a href="/cdn-cgi/l/email-protection#a1cfc8c2c4e1d3cecfc88cc7cdc4d4d3d28fc2cecc"><span class="__cf_email__" data-cfemail="a7c9cec4c2e7d5c8c9ce8ac1cbc2d2d5d489c4c8ca">[email&#160;protected]</span></a>
+                    <a href="mailto:nice@roni-fleurs.com">nice@roni-fleurs.com</a>
                 </div>
 
                 <div class="boutique-card">
@@ -889,7 +1000,7 @@
                     <p>75 place du Marché, 06330 Roquefort-les-Pins</p>
                     <p>📞 04.92.27.51.54</p>
                     <p class="horaires">🕐 Jeu 13 & Ven 14 : 09:30-19:30</p>
-                    <a href="/cdn-cgi/l/email-protection#e7958896928281889593a79588898eca818b82929594c984888a"><span class="__cf_email__" data-cfemail="4b39243a3e2e2d24393f0b39242522662d272e3e393865282426">[email&#160;protected]</span></a>
+                    <a href="mailto:roquefort@roni-fleurs.com">roquefort@roni-fleurs.com</a>
                 </div>
             </div>
         </div>
@@ -903,10 +1014,31 @@
         </p>
     </footer>
 
-    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+    <!-- Theme Toggle -->
+
+    <script>
         let selectedProduct = null;
         let selectedBoutique = '';
         let selectedDate = '';
+
+        // Theme toggle
+        function toggleTheme() {
+            const body = document.body;
+            const icon = document.getElementById('themeIcon');
+            const text = document.getElementById('themeText');
+            
+            body.classList.toggle('light-mode');
+            
+            if (body.classList.contains('light-mode')) {
+                icon.textContent = '🌙';
+                text.textContent = 'Mode sombre';
+                localStorage.setItem('theme', 'light');
+            } else {
+                icon.textContent = '☀️';
+                text.textContent = 'Mode clair';
+                localStorage.setItem('theme', 'dark');
+            }
+        }
 
         function selectProduct(id, name, price, stripeLink) {
             // Désélectionner tous les produits
@@ -1001,4 +1133,39 @@
             if (!selectedProduct) {
                 warning.innerHTML = 'Veuillez d\'abord sélectionner une création';
                 warning.classList.add('show');
-                document.querySelector('.
+                document.querySelector('.products-section').scrollIntoView({ behavior: 'smooth', block: 'center' });
+                return;
+            }
+            
+            if (!selectedBoutique) {
+                warning.innerHTML = 'Veuillez sélectionner une boutique de retrait';
+                warning.classList.add('show');
+                return;
+            }
+
+            if (!selectedDate) {
+                warning.innerHTML = 'Veuillez sélectionner une date de récupération';
+                warning.classList.add('show');
+                return;
+            }
+
+            // Combiner boutique et date pour le client_reference_id
+            const referenceId = selectedBoutique + '_' + selectedDate;
+            
+            // Rediriger vers Stripe avec les infos en paramètre
+            const url = selectedProduct.stripeLink + '?client_reference_id=' + encodeURIComponent(referenceId);
+            window.location.href = url;
+        }
+
+        // Check saved theme on load (default is light)
+        (function() {
+            const savedTheme = localStorage.getItem('theme');
+            if (savedTheme === 'dark') {
+                document.body.classList.remove('light-mode');
+                document.getElementById('themeIcon').textContent = '☀️';
+                document.getElementById('themeText').textContent = 'Mode clair';
+            }
+        })();
+    </script>
+</body>
+</html>
